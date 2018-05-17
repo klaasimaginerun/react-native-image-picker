@@ -32,7 +32,7 @@
     "picker"
   ],
   "scripts": {
-    "prepack": "rm -rf android/build Example/android/build Example/android/app/build node_modules"
+    "prepublishOnly": "rm -rf android/build Example/android/build Example/android/app/build node_modules"
   },
   "types": "./index.d.ts"
 }
